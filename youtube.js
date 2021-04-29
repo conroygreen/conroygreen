@@ -14,7 +14,7 @@ var outputCounter = 0; // used to avoid doubling up on old messages if lag or wh
 function actionwtf(){ // steves personal socket server service
 	if (soca){return;}
 	
-	prompt("Overlay Link: github.com/conroygreensession="+channel+"\nAdd as a browser source; set height to 250px", "https://chat.overlay.ninja?session="+channel);
+	prompt("Overlay Link: https://github.com/conroygreen?session="+channel+"\nAdd as a browser source; set height to 250px", "https://github.com/conroygreen?session="+channel);
 	
 	soca = new WebSocket("wss://api.action.wtf:666");
 	soca.onclose = function (){
